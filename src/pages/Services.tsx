@@ -42,44 +42,43 @@ export default function Services() {
       icon: ShoppingCart,
       description: 'Empower your online business with our comprehensive e-commerce solution. Features include product catalog management, secure payment processing, and customer reviews.',
       features: ['Product catalog management', 'Secure payment processing', 'Customer reviews', 'Order tracking'],
-      image: 'https://unsplash.com/photos/black-friday-shopping-8pb7Hq539Zw'
+      image: 'https://plus.unsplash.com/premium_photo-1681488350342-19084ba8e224?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fHww'
     },
     {
       title: 'Point of Sale (PoS) System',
       icon: CreditCard,
       description: 'Enhance your retail operations with our intuitive PoS system. Features include real-time inventory tracking, sales reporting, and customer relationship management.',
       features: ['Real-time inventory tracking', 'Sales reporting', 'Customer management', 'Multi-payment options'],
-      image: 'https://unsplash.com/photos/point-of-sale-system-7okkFhxrxNw'
+      image: 'https://images.unsplash.com/photo-1602665742701-389671bc40c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UG9pbnQlMjBvZiUyMFNhbGV8ZW58MHx8MHx8fDA%3D'
     },
     {
       title: 'Logistics Management System',
       icon: Truck,
       description: 'Optimize your supply chain with our logistics management system. Features include shipment tracking, warehouse management, and route optimization.',
       features: ['Shipment tracking', 'Warehouse management', 'Route optimization', 'Inventory forecasting'],
-      image: 'https://unsplash.com/photos/logistics-management-system-5fNmWej4tAA'
+      image: 'https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxvZ2lzdGljc3xlbnwwfHwwfHx8MA%3D%3D'
     },
     {
       title: 'Security CRM',
       icon: Shield,
       description: 'Safeguard your customer data with our security-focused CRM. Features include data encryption, access controls, and activity monitoring to ensure compliance and protect sensitive information.',
       features: ['Data encryption', 'Access controls', 'Activity monitoring', 'Compliance management'],
-      image: 'https://unsplash.com/photos/security-crm-dashboard-9l_326FISzk'
+      image: 'https://plus.unsplash.com/premium_photo-1674582744373-c0805c281744?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2VjdXJpdHl8ZW58MHx8MHx8fDA%3D'
     }
-    
   ];
 
   const testimonials = [
     {
-      name: "David Wilson",
-      role: "Operations Manager, Grand Hotel",
-      content: "The hotel management system has revolutionized our operations. Check-ins are faster, and guest satisfaction has improved significantly.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&q=80"
+      name: "Hillary Wekesa",
+      role: "CEO, Sary Networks Intl. LTD.",
+      content: "DiversiWorks transformed our business operations with their custom CRM solution. The efficiency gains have been remarkable.",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQHAKUcWXcJ_ng/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1675361929913?e=1748476800&v=beta&t=vrZOV87-MQ_C711VWFog7GDe0ZnSxVtVfWfAzooyNq8"
     },
     {
-      name: "Emily Rodriguez",
-      role: "Principal, International School",
-      content: "The school management system has made administrative tasks so much easier. Parents love the transparency it provides.",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&q=80"
+      name: "Michael Johnson",
+      role: "Director, VivaceKenya",
+      content: "Their healthcare management system has streamlined our patient care processes significantly. Excellent work!",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQHAKUcWXcJ_ng/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1675361929913?e=1748476800&v=beta&t=vrZOV87-MQ_C711VWFog7GDe0ZnSxVtVfWfAzooyNq8"
     }
   ];
 

@@ -16,26 +16,31 @@ export default function About() {
       icon: Users,
       title: "Collaboration",
       description: "We believe in the power of teamwork and partnership with our clients to achieve the best results."
+    },
+    {
+      icon: Target,
+      title: "Innovation",
+      description: "We are committed to continuous learning and innovation, staying ahead of the curve in technology and trends."
     }
   ];
 
   const team = [
     {
-      name: "John Doe",
-      role: "CEO & Founder",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
-      description: "With over 15 years of experience in software development and business management."
+      name: "Naftali Muthomi",
+      role: "Managing Partner",
+      image: "https://plus.unsplash.com/premium_vector-1683141132250-12daa3bd85cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVzaW5lc3MlMjBtYW58ZW58MHx8MHx8fDA%3D",
+      description: "Experienced entrepreneur and software engineer with a passion for technology and business."
     },
     {
-      name: "Sarah Smith",
+      name: "Sikolia Malcolm",
       role: "CTO",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+      image: "https://res.cloudinary.com/dylmsnibf/image/upload/v1737532592/IMG_0267_uvs8li.jpg",
       description: "Expert in system architecture and emerging technologies."
     },
     {
-      name: "Michael Johnson",
+      name: "Shama Bernard",
       role: "Lead Developer",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80",
+      image: "https://plus.unsplash.com/premium_vector-1683141132250-12daa3bd85cf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVzaW5lc3MlMjBtYW58ZW58MHx8MHx8fDA%3D",
       description: "Specializes in creating robust and scalable software solutions."
     }
   ];
