@@ -1,4 +1,4 @@
-import { CheckCircle2, Users, Building, Briefcase, Server } from 'lucide-react';
+import { CheckCircle2, Users, Building, Briefcase, Server, Shield, ShoppingCart, Truck, CreditCard } from 'lucide-react';
 
 export default function Services() {
   const services = [
@@ -36,7 +36,36 @@ export default function Services() {
       description: 'All-in-one solution for hotel operations. Manage bookings, rooms, staff, and guest services efficiently.',
       features: ['Reservation management', 'Room allocation', 'Staff scheduling', 'Guest services'],
       image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'E-commerce Platform',
+      icon: ShoppingCart,
+      description: 'Empower your online business with our comprehensive e-commerce solution. Features include product catalog management, secure payment processing, and customer reviews.',
+      features: ['Product catalog management', 'Secure payment processing', 'Customer reviews', 'Order tracking'],
+      image: 'https://unsplash.com/photos/black-friday-shopping-8pb7Hq539Zw'
+    },
+    {
+      title: 'Point of Sale (PoS) System',
+      icon: CreditCard,
+      description: 'Enhance your retail operations with our intuitive PoS system. Features include real-time inventory tracking, sales reporting, and customer relationship management.',
+      features: ['Real-time inventory tracking', 'Sales reporting', 'Customer management', 'Multi-payment options'],
+      image: 'https://unsplash.com/photos/point-of-sale-system-7okkFhxrxNw'
+    },
+    {
+      title: 'Logistics Management System',
+      icon: Truck,
+      description: 'Optimize your supply chain with our logistics management system. Features include shipment tracking, warehouse management, and route optimization.',
+      features: ['Shipment tracking', 'Warehouse management', 'Route optimization', 'Inventory forecasting'],
+      image: 'https://unsplash.com/photos/logistics-management-system-5fNmWej4tAA'
+    },
+    {
+      title: 'Security CRM',
+      icon: Shield,
+      description: 'Safeguard your customer data with our security-focused CRM. Features include data encryption, access controls, and activity monitoring to ensure compliance and protect sensitive information.',
+      features: ['Data encryption', 'Access controls', 'Activity monitoring', 'Compliance management'],
+      image: 'https://unsplash.com/photos/security-crm-dashboard-9l_326FISzk'
     }
+    
   ];
 
   const testimonials = [

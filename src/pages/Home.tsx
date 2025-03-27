@@ -11,16 +11,16 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      role: "CEO, TechCorp",
+      name: "Hillary Wekesa",
+      role: "CEO, Sary Networks Intl. LTD.",
       content: "DiversiWorks transformed our business operations with their custom CRM solution. The efficiency gains have been remarkable.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&q=80"
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQHAKUcWXcJ_ng/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1675361929913?e=1748476800&v=beta&t=vrZOV87-MQ_C711VWFog7GDe0ZnSxVtVfWfAzooyNq8"
     },
     {
-      name: "Michael Chen",
-      role: "Director, Healthcare Plus",
+      name: "Michael Johnson",
+      role: "Director, VivaceKenya",
       content: "Their healthcare management system has streamlined our patient care processes significantly. Excellent work!",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=128&q=80"
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQHAKUcWXcJ_ng/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1675361929913?e=1748476800&v=beta&t=vrZOV87-MQ_C711VWFog7GDe0ZnSxVtVfWfAzooyNq8"
     }
   ];
 
