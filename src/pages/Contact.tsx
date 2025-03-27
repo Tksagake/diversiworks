@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Users, Target, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Contact() {
@@ -25,13 +25,20 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       {/* Contact Header */}
-      <div className="bg-navy-900 text-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="bg-navy-900 text-white py-20 relative">
+        <div className="absolute inset-0 z-0">
+          <img
+            src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80"
+            alt="Technology Background"
+            className="w-full h-full object-cover opacity-20"
+          />
+        </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <h1 className="text-4xl font-bold text-center mb-6">Contact Us</h1>
           <p className="text-xl text-center text-gray-300">Get in touch with our team</p>
         </div>
       </div>
-
+  
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Contact Form */}
@@ -94,7 +101,7 @@ export default function Contact() {
               </button>
             </form>
           </div>
-
+  
           {/* Contact Information */}
           <div>
             <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
@@ -120,33 +127,12 @@ export default function Contact() {
                   <p>Nairobi, Kenya</p>
                 </div>
               </div>
-            </div>
-
-            {/* About Us Section */}
-            <div className="mt-12">
-              <h2 className="text-2xl font-bold mb-6">About Us</h2>
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <Target className="h-6 w-6 text-yellow-400 mr-4 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Our Mission</h3>
-                    <p className="text-gray-600">To provide innovative and efficient software solutions that empower businesses to achieve their full potential.</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Users className="h-6 w-6 text-yellow-400 mr-4 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Our Team</h3>
-                    <p className="text-gray-600">A dedicated team of experienced professionals committed to delivering excellence in software development.</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <Clock className="h-6 w-6 text-yellow-400 mr-4 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Working Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                    <p className="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
-                  </div>
+              <div className="flex items-start">
+                <Clock className="h-6 w-6 text-yellow-400 mr-4 mt-1" />
+                <div>
+                  <h3 className="font-semibold">Working Hours</h3>
+                  <p className="text-gray-600">Monday - Friday: 7:00 AM - 6:00 PM</p>
+                  <p className="text-gray-600">Saturday: 7:00 AM - 2:00 PM</p>
                 </div>
               </div>
             </div>
@@ -154,5 +140,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-  );
+  );  
 }
